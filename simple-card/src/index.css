@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 75%;
+}
+
+.card {
+    max-width: 250px;
+    text-align: center;
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 7px;
+}
+
+.card .card-title {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card .card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
