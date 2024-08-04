@@ -1,0 +1,9 @@
+div#root {
+    border: none;
+}
+
+div.box {
+    border: 1px solid hsla(0, 0%, 60%, 0.6);
+    padding: 20px;
+    margin: 20px;
+}
